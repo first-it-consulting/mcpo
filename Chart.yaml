@@ -3,4 +3,4 @@ appVersion: main
 description: A Helm chart for deploying the mcpo proxy server
 name: mcpo
 type: application
-version: 0.2.6
+version: 0.2.7
