@@ -3,7 +3,7 @@ entries:
   mcpo:
   - apiVersion: v2
     appVersion: main
-    created: "2025-08-15T05:48:59.195132+02:00"
+    created: "2025-08-15T05:59:25.691998+02:00"
     description: A Helm chart for deploying the mcpo proxy server
     digest: 86dd4290278ed811c5699298d75e17013b306c1ee3303b4aaa7fcf6a31b46c89
     name: mcpo
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://first-it-consulting.github.io/helm-mcpo/mcpo-0.2.7.tgz
     version: 0.2.7
-generated: "2025-08-15T05:48:59.187253+02:00"
+generated: "2025-08-15T05:59:25.681013+02:00"
