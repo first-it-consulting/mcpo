@@ -9,10 +9,37 @@ This Helm chart deploys the [mcpo](https://github.com/open-webui/mcpo) proxy ser
 
 ## Installing the Chart
 
-To install the chart with the release name `mcpo`:
+### Option 1: Install from Helm Repository
+
+First, add the Helm repository:
 
 ```bash
-helm install mcpo ./charts/mcpo
+helm repo add mcp-helm https://first-it-consulting.github.io/helm-mcpo/
+helm repo update
+```
+
+Then install the chart with the release name `mcpo`:
+
+```bash
+helm install mcpo mcp-helm/mcpo
+```
+
+### Option 2: Install from Git Repository
+
+Clone the repository and install the chart locally:
+
+```bash
+git clone https://github.com/first-it-consulting/helm-mcpo.git
+cd helm-mcpo
+helm install mcpo .
+```
+
+### Option 3: Install from local chart directory
+
+If you're in the chart directory:
+
+```bash
+helm install mcpo .
 ```
 
 The command deploys the mcpo proxy on the Kubernetes cluster in the default configuration. The [Parameters](#parameters) section lists the parameters that can be configured during installation.
