@@ -1,0 +1,10 @@
+apiVersion: v2
+appVersion: main
+dependencies:
+- name: mcp-library
+  repository: https://arbuzov.github.io/mcp-helm/
+  version: 0.1.4
+description: A Helm chart for deploying the mcpo proxy server
+name: mcpo
+type: application
+version: 0.2.5
